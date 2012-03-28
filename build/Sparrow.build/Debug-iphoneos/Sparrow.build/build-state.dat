@@ -1,0 +1,1441 @@
+TSparrow
+v7
+r0
+t332727457.127116
+cCheck dependencies
+cCpResource build/Debug-iphoneos/Sparrow.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/Info.plist Sparrow-Info.plist
+cCompileXIB /Users/Max/Desktop/Sparrow/MainWindow.xib
+cCompileXIB /Users/Max/Desktop/Sparrow/DetailView.xib
+cCopyPNGFile /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/shadow.png shadow.png
+cCpResource build/Debug-iphoneos/Sparrow.app/jQueryInject.txt "Classes/Twitter+OAuth/Libraries & Headers/jQueryInject.txt"
+cCpResource build/Debug-iphoneos/Sparrow.app/jQueryInjectLandscape.txt "Classes/Twitter+OAuth/Libraries & Headers/jQueryInjectLandscape.txt"
+cCopyPNGFile /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/twitter_load.png Classes/Twitter+OAuth/SAOAuthTwitterEngine/twitter_load.png
+cProcessPCH /var/folders/1R/1RPYx-rTES8ja4-orqLoIE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparrow_Prefix-fvjsxlxpvrnygdcbbpnnwwmaktlv/Sparrow_Prefix.pch.gch Sparrow_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cDataModelVersionCompile /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/Sparrow.momd /Users/Max/Desktop/Sparrow/Sparrow.xcdatamodeld
+cCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/main.o /Users/Max/Desktop/Sparrow/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/SparrowAppDelegate.o /Users/Max/Desktop/Sparrow/Classes/SparrowAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/RootViewController.o /Users/Max/Desktop/Sparrow/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/DetailViewController.o /Users/Max/Desktop/Sparrow/Classes/DetailViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/SPCategoryTableView.o /Users/Max/Desktop/Sparrow/Classes/SPCategoryTableView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/SPCellInfoPopOverController.o /Users/Max/Desktop/Sparrow/Classes/SPCellInfoPopOverController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterEngine.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterEngine.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterHTTPURLConnection.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterHTTPURLConnection.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterLibXMLParser.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterLibXMLParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterMessagesLibXMLParser.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesLibXMLParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterMessagesParser.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterMiscLibXMLParser.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscLibXMLParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterMiscParser.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterStatusesLibXMLParser.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesLibXMLParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterStatusesParser.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterUsersLibXMLParser.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersLibXMLParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterUsersParser.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterXMLParser.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/NSData+Base64.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/NSData+Base64.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/NSString+UUID.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/NSString+UUID.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/SA_OAuthTwitterController.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/SA_OAuthTwitterEngine.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterEngine.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/Sparrow normal armv7
+cGenerateDSYMFile /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app.dSYM /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/Sparrow
+cProcessProductPackaging "/Users/Max/Library/MobileDevice/Provisioning Profiles/C275F5A4-A9B6-4592-AB97-54E506570B3D.mobileprovision" /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/embedded.mobileprovision
+cTouch /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow.xcent
+cCodeSign /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004DFBF7740000000000000110
+t1308358516
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004D54D2640000000000303FF0
+t1297404516
+s3162096
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004D54D243000000000000046B
+t1297404483
+s1131
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004D54D49500000000000000C4
+t1297405077
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Security.framework/Security
+c000000004D54D0A600000000000CDED0
+t1297404070
+s843472
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004D54D0E700000000000B0CA0
+t1297404135
+s724128
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/Availability.h
+c000000004D4F74C20000000000001B19
+t1297052866
+s6937
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/iconv.h
+c000000004D54C66A0000000000001FBE
+t1297401450
+s8126
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/stdio.h
+c000000004D4F6E910000000000004763
+t1297051281
+s18275
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/stdlib.h
+c000000004D4F6E9100000000000030A7
+t1297051281
+s12455
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/stdarg.h
+c000000004D09AC6C00000000000010DD
+t1292479596
+s4317
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/stdint.h
+c000000004D09AD56000000000000190C
+t1292479830
+s6412
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/lib/libxml2.2.dylib
+c000000004D54D0BC00000000001E1450
+t1297404092
+s1971280
+
+N/Users/Max/Desktop/Sparrow/Classes/DetailViewController.h
+c000000004E24CB9100000000000004B8
+t1311034257
+s1208
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+i"SA_OAuthTwitterEngine.h"
+i"SA_OAuthTwitterController.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/DetailViewController.m
+c000000004E24CD1C0000000000001767
+t1311034652
+s5991
+i"DetailViewController.h"
+i"RootViewController.h"
+i"SPCategoryTableView.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/RootViewController.h
+c000000004E24C59F0000000000000314
+t1311032735
+s788
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/Max/Desktop/Sparrow/Classes/RootViewController.m
+c000000004E24BC590000000000002D6D
+t1311030361
+s11629
+i"RootViewController.h"
+i"DetailViewController.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/SPCategoryTableView.h
+c000000004E23950900000000000001BB
+t1310954761
+s443
+i<UIKit/UIKit.h>
+i"SPCellInfoPopOverController.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/SPCategoryTableView.m
+c000000004E23963800000000000014CC
+t1310955064
+s5324
+i"SPCategoryTableView.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/SPCellInfoPopOverController.h
+c000000004E2391C8000000000000013E
+t1310953928
+s318
+i<UIKit/UIKit.h>
+
+N/Users/Max/Desktop/Sparrow/Classes/SPCellInfoPopOverController.m
+c000000004E23969C0000000000000577
+t1310955164
+s1399
+i"SPCellInfoPopOverController.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/SparrowAppDelegate.h
+c000000004E23883A0000000000000506
+t1310951482
+s1286
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+
+N/Users/Max/Desktop/Sparrow/Classes/SparrowAppDelegate.m
+c000000004E23883A0000000000001CA9
+t1310951482
+s7337
+i"SparrowAppDelegate.h"
+i"RootViewController.h"
+i"DetailViewController.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/Libraries & Headers/OAuthConsumer/NSMutableURLRequest+Parameters.h
+c000000004DC5E8FA00000000000005AB
+t1304815866
+s1451
+i<Foundation/Foundation.h>
+i"OARequestParameter.h"
+i"NSURL+Base.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/Libraries & Headers/OAuthConsumer/NSString+URLEncoding.h
+c000000004DC5E8FA000000000000055D
+t1304815866
+s1373
+i<Foundation/Foundation.h>
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/Libraries & Headers/OAuthConsumer/NSURL+Base.h
+c000000004DC5E8FA0000000000000540
+t1304815866
+s1344
+i<Foundation/Foundation.h>
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/Libraries & Headers/OAuthConsumer/OAConsumer.h
+c000000004DC5E8FA00000000000005CF
+t1304815866
+s1487
+i<Foundation/Foundation.h>
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/Libraries & Headers/OAuthConsumer/OADataFetcher.h
+c000000004DC5E8FA00000000000006D6
+t1304815866
+s1750
+i<Foundation/Foundation.h>
+i"OAMutableURLRequest.h"
+i"OAServiceTicket.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/Libraries & Headers/OAuthConsumer/OAHMAC_SHA1SignatureProvider.h
+c000000004DC5E8FA0000000000000573
+t1304815866
+s1395
+i<Foundation/Foundation.h>
+i"OASignatureProviding.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/Libraries & Headers/OAuthConsumer/OAMutableURLRequest.h
+c000000004DC5E8FA00000000000008EF
+t1304815866
+s2287
+i<Foundation/Foundation.h>
+i"OAConsumer.h"
+i"OAToken.h"
+i"OAHMAC_SHA1SignatureProvider.h"
+i"OASignatureProviding.h"
+i"NSMutableURLRequest+Parameters.h"
+i"NSURL+Base.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/Libraries & Headers/OAuthConsumer/OARequestParameter.h
+c000000004DC5E8FA00000000000006B5
+t1304815866
+s1717
+i<Foundation/Foundation.h>
+i"NSString+URLEncoding.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/Libraries & Headers/OAuthConsumer/OAServiceTicket.h
+c000000004DC5E8FA0000000000000695
+t1304815866
+s1685
+i<Foundation/Foundation.h>
+i"OAMutableURLRequest.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/Libraries & Headers/OAuthConsumer/OASignatureProviding.h
+c000000004DC5E8FA000000000000057A
+t1304815866
+s1402
+i<Foundation/Foundation.h>
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/Libraries & Headers/OAuthConsumer/OAToken.h
+c000000004DC5E8FA0000000000000753
+t1304815866
+s1875
+i<Foundation/Foundation.h>
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/Libraries & Headers/jQueryInject.txt
+c000000004DC5E8FA00000000000007A0
+t1304815866
+s1952
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/Libraries & Headers/jQueryInjectLandscape.txt
+c000000004DC5E8FA00000000000007A0
+t1304815866
+s1952
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/Libraries & Headers/libOAuth.a
+c000000004DC5E8FA000000000008DF6C
+t1304815866
+s581484
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterEngine.h
+c000000004DC5E8FA000000000000213C
+t1304815866
+s8508
+i"MGTwitterEngineGlobalHeader.h"
+i"MGTwitterEngineDelegate.h"
+i"MGTwitterParserDelegate.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterEngine.m
+c000000004DC5E8FA000000000000D21D
+t1304815866
+s53789
+i"MGTwitterEngine.h"
+i"MGTwitterHTTPURLConnection.h"
+i"NSData+Base64.h"
+i"MGTwitterStatusesYAJLParser.h"
+i"MGTwitterMessagesYAJLParser.h"
+i"MGTwitterUsersYAJLParser.h"
+i"MGTwitterMiscYAJLParser.h"
+i"MGTwitterSearchYAJLParser.h"
+i"MGTwitterStatusesLibXMLParser.h"
+i"MGTwitterMessagesLibXMLParser.h"
+i"MGTwitterUsersLibXMLParser.h"
+i"MGTwitterMiscLibXMLParser.h"
+i"MGTwitterStatusesParser.h"
+i"MGTwitterUsersParser.h"
+i"MGTwitterMessagesParser.h"
+i"MGTwitterMiscParser.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterEngineDelegate.h
+c000000004DC5E8FA00000000000008CF
+t1304815866
+s2255
+i"MGTwitterEngineGlobalHeader.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterEngineGlobalHeader.h
+c000000004DC5E8FA00000000000007EC
+t1304815866
+s2028
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<Cocoa/Cocoa.h>
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterHTTPURLConnection.h
+c000000004DC5E8FA0000000000000485
+t1304815866
+s1157
+i"MGTwitterEngineGlobalHeader.h"
+i"MGTwitterRequestTypes.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterHTTPURLConnection.m
+c000000004DC5E8FA000000000000065A
+t1304815866
+s1626
+i"MGTwitterHTTPURLConnection.h"
+i"NSString+UUID.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterLibXMLParser.h
+c000000004E24C6D200000000000005F9
+t1311033042
+s1529
+i"MGTwitterEngineGlobalHeader.h"
+i"xmlreader.h"
+i"MGTwitterParserDelegate.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterLibXMLParser.m
+c000000004DC5E8FA0000000000002684
+t1304815866
+s9860
+i"MGTwitterLibXMLParser.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesLibXMLParser.h
+c000000004DC5E8FA000000000000012A
+t1304815866
+s298
+i"MGTwitterEngineGlobalHeader.h"
+i"MGTwitterLibXMLParser.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesLibXMLParser.m
+c000000004DC5E8FA0000000000000CD2
+t1304815866
+s3282
+i"MGTwitterMessagesLibXMLParser.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesParser.h
+c000000004DC5E8FA0000000000000122
+t1304815866
+s290
+i"MGTwitterEngineGlobalHeader.h"
+i"MGTwitterStatusesParser.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesParser.m
+c000000004DC5E8FA000000000000076B
+t1304815866
+s1899
+i"MGTwitterMessagesParser.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscLibXMLParser.h
+c000000004DC5E8FA0000000000000122
+t1304815866
+s290
+i"MGTwitterEngineGlobalHeader.h"
+i"MGTwitterLibXMLParser.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscLibXMLParser.m
+c000000004DC5E8FA0000000000000527
+t1304815866
+s1319
+i"MGTwitterMiscLibXMLParser.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscParser.h
+c000000004DC5E8FA0000000000000130
+t1304815866
+s304
+i"MGTwitterEngineGlobalHeader.h"
+i"MGTwitterStatusesParser.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscParser.m
+c000000004DC5E8FA000000000000056A
+t1304815866
+s1386
+i"MGTwitterMiscParser.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterParserDelegate.h
+c000000004DC5E8FA0000000000000330
+t1304815866
+s816
+i"MGTwitterEngineGlobalHeader.h"
+i"MGTwitterRequestTypes.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterRequestTypes.h
+c000000004DC5E8FA000000000000105F
+t1304815866
+s4191
+i"MGTwitterEngineGlobalHeader.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesLibXMLParser.h
+c000000004DC5E8FA000000000000012A
+t1304815866
+s298
+i"MGTwitterEngineGlobalHeader.h"
+i"MGTwitterLibXMLParser.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesLibXMLParser.m
+c000000004DC5E8FA00000000000003A3
+t1304815866
+s931
+i"MGTwitterStatusesLibXMLParser.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesParser.h
+c000000004DC5E8FA0000000000000118
+t1304815866
+s280
+i"MGTwitterEngineGlobalHeader.h"
+i"MGTwitterXMLParser.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesParser.m
+c000000004DC5E8FA000000000000084B
+t1304815866
+s2123
+i"MGTwitterStatusesParser.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersLibXMLParser.h
+c000000004DC5E8FA0000000000000124
+t1304815866
+s292
+i"MGTwitterEngineGlobalHeader.h"
+i"MGTwitterLibXMLParser.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersLibXMLParser.m
+c000000004DC5E8FA0000000000000392
+t1304815866
+s914
+i"MGTwitterUsersLibXMLParser.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersParser.h
+c000000004DC5E8FA000000000000011C
+t1304815866
+s284
+i"MGTwitterEngineGlobalHeader.h"
+i"MGTwitterStatusesParser.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersParser.m
+c000000004DC5E8FA00000000000006F2
+t1304815866
+s1778
+i"MGTwitterUsersParser.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.h
+c000000004DC5E8FA0000000000000459
+t1304815866
+s1113
+i"MGTwitterEngineGlobalHeader.h"
+i"MGTwitterParserDelegate.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m
+c000000004DC5E8FA000000000000131F
+t1304815866
+s4895
+i"MGTwitterXMLParser.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/NSData+Base64.h
+c000000004DC5E8FA0000000000000602
+t1304815866
+s1538
+i"MGTwitterEngineGlobalHeader.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/NSData+Base64.m
+c000000004DC5E8FA0000000000000F65
+t1304815866
+s3941
+i"NSData+Base64.h"
+i<Foundation/Foundation.h>
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/NSString+UUID.h
+c000000004DC5E8FA00000000000000ED
+t1304815866
+s237
+i"MGTwitterEngineGlobalHeader.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/NSString+UUID.m
+c000000004DC5E8FA00000000000001E3
+t1304815866
+s483
+i"NSString+UUID.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterController.h
+c000000004DC5E8FA000000000000077A
+t1304815866
+s1914
+i<UIKit/UIKit.h>
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterController.m
+c000000004DC5E8FA000000000000389E
+t1304815866
+s14494
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i"SA_OAuthTwitterEngine.h"
+i"SA_OAuthTwitterController.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterEngine.h
+c000000004DC5E8FA000000000000073C
+t1304815866
+s1852
+i"MGTwitterEngine.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterEngine.m
+c000000004DC5E8FA00000000000039BA
+t1304815866
+s14778
+i"MGTwitterHTTPURLConnection.h"
+i"OAConsumer.h"
+i"OAMutableURLRequest.h"
+i"OADataFetcher.h"
+i"SA_OAuthTwitterEngine.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/SAOAuthTwitterEngine/twitter_load.png
+c000000004DC5E8FA0000000000009155
+t1304815866
+s37205
+
+N/Users/Max/Desktop/Sparrow/Classes/libxml/SAX.h
+c000000004E24C8F40000000000001127
+t1311033588
+s4391
+i<stdio.h>
+i<stdlib.h>
+i"xmlversion.h"
+i"parser.h"
+i"xlink.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/libxml/SAX2.h
+c000000004E24C924000000000000133B
+t1311033636
+s4923
+i<stdio.h>
+i<stdlib.h>
+i"xmlversion.h"
+i"parser.h"
+i"xlink.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/libxml/dict.h
+c000000004E24C7BC0000000000000620
+t1311033276
+s1568
+i"xmlversion.h"
+i"tree.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/libxml/encoding.h
+c000000004E24C93E00000000000021C6
+t1311033662
+s8646
+i"xmlversion.h"
+i<iconv.h>
+i<stdint.h>
+i"tree.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/libxml/entities.h
+c000000004E24C8B30000000000001232
+t1311033523
+s4658
+i"xmlversion.h"
+i"tree.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/libxml/globals.h
+c000000004E24C94200000000000037EA
+t1311033666
+s14314
+i"xmlversion.h"
+i"parser.h"
+i"xmlerror.h"
+i"SAX.h"
+i"SAX2.h"
+i"xmlmemory.h"
+i"threads.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/libxml/hash.h
+c000000004E24C8560000000000001992
+t1311033430
+s6546
+i"xmlversion.h"
+i"parser.h"
+i"dict.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/libxml/list.h
+c000000004E24C8A60000000000000D57
+t1311033510
+s3415
+i"xmlversion.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/libxml/parser.h
+c000000004E24C8C2000000000000985C
+t1311033538
+s39004
+i<stdarg.h>
+i"xmlversion.h"
+i"tree.h"
+i"dict.h"
+i"hash.h"
+i"valid.h"
+i"entities.h"
+i"xmlerror.h"
+i"xmlstring.h"
+i"encoding.h"
+i"xmlIO.h"
+i"globals.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/libxml/relaxng.h
+c000000004E24C842000000000000172D
+t1311033410
+s5933
+i"xmlversion.h"
+i"hash.h"
+i"xmlstring.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/libxml/threads.h
+c000000004E24C7E3000000000000072E
+t1311033315
+s1838
+i"xmlversion.h"
+i"globals.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/libxml/tree.h
+c000000004E24C7910000000000008EF8
+t1311033233
+s36600
+i<stdio.h>
+i"xmlversion.h"
+i"xmlstring.h"
+i"xmlregexp.h"
+i"xmlmemory.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/libxml/valid.h
+c000000004E24C87B00000000000035CC
+t1311033467
+s13772
+i"xmlversion.h"
+i"xmlerror.h"
+i"tree.h"
+i"list.h"
+i"xmlautomata.h"
+i"xmlregexp.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/libxml/xlink.h
+c000000004E24C91C00000000000013AD
+t1311033628
+s5037
+i"xmlversion.h"
+i"tree.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/libxml/xmlIO.h
+c000000004E24C90C00000000000028AD
+t1311033612
+s10413
+i<stdio.h>
+i"xmlversion.h"
+i"globals.h"
+i"tree.h"
+i"parser.h"
+i"encoding.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/libxml/xmlautomata.h
+c000000004E24C89B0000000000000F83
+t1311033499
+s3971
+i"xmlversion.h"
+i"tree.h"
+i"xmlregexp.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/libxml/xmlerror.h
+c000000004E24C8830000000000008F31
+t1311033475
+s36657
+i"parser.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/libxml/xmlexports.h
+c000000004D54D0BB0000000000000E77
+t1297404091
+s3703
+
+N/Users/Max/Desktop/Sparrow/Classes/libxml/xmlmemory.h
+c000000004E24C7D5000000000000173F
+t1311033301
+s5951
+i<stdio.h>
+i"xmlversion.h"
+i"threads.h"
+i"globals.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/libxml/xmlreader.h
+c000000004E24C74700000000000030E4
+t1311033159
+s12516
+i"xmlversion.h"
+i"tree.h"
+i"xmlIO.h"
+i"relaxng.h"
+i"xmlschemas.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/libxml/xmlregexp.h
+c000000004E24C7AB000000000000153D
+t1311033259
+s5437
+i"xmlversion.h"
+i"tree.h"
+i"dict.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/libxml/xmlschemas.h
+c000000004E24C9300000000000001828
+t1311033648
+s6184
+i"xmlversion.h"
+i"tree.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/libxml/xmlstring.h
+c000000004E24C7800000000000001553
+t1311033216
+s5459
+i<stdarg.h>
+i"xmlversion.h"
+
+N/Users/Max/Desktop/Sparrow/Classes/libxml/xmlversion.h
+c000000004E24C76B0000000000001E20
+t1311033195
+s7712
+i"xmlexports.h"
+i<ansidecl.h>
+
+N/Users/Max/Desktop/Sparrow/DetailView.xib
+c000000004E238B050000000000005C05
+t1310952197
+s23557
+
+N/Users/Max/Desktop/Sparrow/MainWindow.xib
+c000000004E2397C0000000000000829B
+t1310955456
+s33435
+
+N/Users/Max/Desktop/Sparrow/Sparrow.xcdatamodeld
+c000000004E23883A0000000000000088
+t1310951482
+s136
+
+N/Users/Max/Desktop/Sparrow/Sparrow_Prefix.pch
+c000000004E23883A0000000000000140
+t1310951482
+s320
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app
+t1311034657
+s544
+
+N/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app.dSYM
+t1311034656
+s102
+
+N/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/DetailView.nib
+t1311034516
+s1979
+
+N/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/Info.plist
+t1311034512
+s1046
+
+N/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/MainWindow.nib
+t1311034516
+s3458
+
+N/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/PkgInfo
+t1311034512
+s8
+
+N/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/ResourceRules.plist
+t1311034512
+s485
+
+N/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/Sparrow
+t1311034656
+s203608
+
+N/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/Sparrow.momd
+t1311034527
+s136
+
+N/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/embedded.mobileprovision
+t1311034532
+s8373
+
+N/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/jQueryInject.txt
+t1311034516
+s1952
+
+N/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/jQueryInjectLandscape.txt
+t1311034516
+s1952
+
+N/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/shadow.png
+t1311034518
+s2947
+
+N/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/twitter_load.png
+t1311034519
+s40829
+
+N/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/DetailViewController.o
+t1311034656
+s71908
+
+N/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterEngine.o
+t1311034530
+s87200
+
+N/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterHTTPURLConnection.o
+t1311034529
+s16020
+
+N/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterLibXMLParser.o
+t1311034530
+s31152
+
+N/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterMessagesLibXMLParser.o
+t1311034530
+s15444
+
+N/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterMessagesParser.o
+t1311034530
+s13048
+
+N/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterMiscLibXMLParser.o
+t1311034530
+s12144
+
+N/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterMiscParser.o
+t1311034530
+s12560
+
+N/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterStatusesLibXMLParser.o
+t1311034530
+s10924
+
+N/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterStatusesParser.o
+t1311034530
+s13560
+
+N/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterUsersLibXMLParser.o
+t1311034530
+s10876
+
+N/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterUsersParser.o
+t1311034530
+s12792
+
+N/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterXMLParser.o
+t1311034530
+s21752
+
+N/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/NSData+Base64.o
+t1311034530
+s11732
+
+N/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/NSString+UUID.o
+t1311034530
+s6900
+
+N/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/RootViewController.o
+t1311034529
+s70656
+
+N/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/SA_OAuthTwitterController.o
+t1311034530
+s80508
+
+N/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/SA_OAuthTwitterEngine.o
+t1311034531
+s43056
+
+N/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/SPCategoryTableView.o
+t1311034529
+s46900
+
+N/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/SPCellInfoPopOverController.o
+t1311034529
+s37652
+
+N/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/Sparrow.LinkFileList
+c000000004E24CC900000000000000A5C
+t1311034512
+s2652
+
+N/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/SparrowAppDelegate.o
+t1311034529
+s69020
+
+N/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/main.o
+t1311034528
+s6408
+
+N/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow.xcent
+t1311034532
+s420
+
+N/Users/Max/Desktop/Sparrow/libOAuth.a
+c000000004DC5E8FA000000000008DF6C
+t1304815866
+s581484
+
+N/Users/Max/Desktop/Sparrow/main.m
+c000000004E23883A0000000000000170
+t1310951482
+s368
+i<UIKit/UIKit.h>
+
+N/Users/Max/Desktop/Sparrow/shadow.png
+c000000004E238C350000000000000B74
+t1310952501
+s2932
+
+N/Users/Max/Library/MobileDevice/Provisioning Profiles/C275F5A4-A9B6-4592-AB97-54E506570B3D.mobileprovision
+c000000004E1B678D00000000000020B5
+t1310418829
+s8373
+
+N/var/folders/1R/1RPYx-rTES8ja4-orqLoIE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparrow_Prefix-fvjsxlxpvrnygdcbbpnnwwmaktlv/Sparrow_Prefix.pch.gch
+t1311034527
+s10647452
+
+NSparrow-Info.plist
+c000000004E23883A00000000000004D6
+t1310951482
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies332727455#332727455#0(0"0(0#1#0"8651283520#0"0#
+
+CCodeSign /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app
+s332727456.406758
+e332727457.127082
+r1
+xCodeSign
+x/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app
+lSLF07#2@41"CodeSign build/Debug-iphoneos/Sparrow.app332727456#332727457#0(0"0(0#0#59"/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app8648974048#603"    cd /Users/Max/Desktop/Sparrow    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: deanna shavrick (883972NT79)" --resource-rules=/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/ResourceRules.plist --entitlements /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow.xcent /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app0#
+
+CCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/DetailViewController.o /Users/Max/Desktop/Sparrow/Classes/DetailViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332727455.919286
+e332727456.148417
+r1
+xCompileC
+xbuild/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/DetailViewController.o
+x/Users/Max/Desktop/Sparrow/Classes/DetailViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/Max/Desktop/Sparrow/Classes/DetailViewController.m332727455#332727456#0(0"0(0#0#57"/Users/Max/Desktop/Sparrow/Classes/DetailViewController.m8651027424#1632"    cd /Users/Max/Desktop/Sparrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-generated-files.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-own-target-headers.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-all-target-headers.hmap -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-project-headers.hmap -F/Users/Max/Desktop/Sparrow/build/Debug-iphoneos -I/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/include -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources/armv7 -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources -include /var/folders/1R/1RPYx-rTES8ja4-orqLoIE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparrow_Prefix-fvjsxlxpvrnygdcbbpnnwwmaktlv/Sparrow_Prefix.pch -c /Users/Max/Desktop/Sparrow/Classes/DetailViewController.m -o /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/DetailViewController.o0#
+
+CCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterEngine.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterEngine.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332727329.510095
+e332727330.157160
+r1
+xCompileC
+xbuild/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterEngine.o
+x/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterEngine.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterEngine.m332727329#332727330#0(0"0(0#0#82"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterEngine.m8632597888#1652"    cd /Users/Max/Desktop/Sparrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-generated-files.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-own-target-headers.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-all-target-headers.hmap -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-project-headers.hmap -F/Users/Max/Desktop/Sparrow/build/Debug-iphoneos -I/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/include -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources/armv7 -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources -include /var/folders/1R/1RPYx-rTES8ja4-orqLoIE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparrow_Prefix-fvjsxlxpvrnygdcbbpnnwwmaktlv/Sparrow_Prefix.pch -c /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterEngine.m -o /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterEngine.o0#
+
+CCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterHTTPURLConnection.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterHTTPURLConnection.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332727329.584044
+e332727329.712517
+r1
+xCompileC
+xbuild/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterHTTPURLConnection.o
+x/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterHTTPURLConnection.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterHTTPURLConnection.m332727329#332727329#0(0"0(0#0#93"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterHTTPURLConnection.m8646736160#1674"    cd /Users/Max/Desktop/Sparrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-generated-files.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-own-target-headers.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-all-target-headers.hmap -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-project-headers.hmap -F/Users/Max/Desktop/Sparrow/build/Debug-iphoneos -I/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/include -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources/armv7 -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources -include /var/folders/1R/1RPYx-rTES8ja4-orqLoIE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparrow_Prefix-fvjsxlxpvrnygdcbbpnnwwmaktlv/Sparrow_Prefix.pch -c /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterHTTPURLConnection.m -o /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterHTTPURLConnection.o0#
+
+CCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterLibXMLParser.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterLibXMLParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332727329.712608
+e332727330.062379
+r1
+xCompileC
+xbuild/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterLibXMLParser.o
+x/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterLibXMLParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterLibXMLParser.m332727329#332727330#0(0"0(0#0#88"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterLibXMLParser.m8643300160#1664"    cd /Users/Max/Desktop/Sparrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-generated-files.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-own-target-headers.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-all-target-headers.hmap -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-project-headers.hmap -F/Users/Max/Desktop/Sparrow/build/Debug-iphoneos -I/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/include -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources/armv7 -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources -include /var/folders/1R/1RPYx-rTES8ja4-orqLoIE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparrow_Prefix-fvjsxlxpvrnygdcbbpnnwwmaktlv/Sparrow_Prefix.pch -c /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterLibXMLParser.m -o /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterLibXMLParser.o0#
+
+CCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterMessagesLibXMLParser.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesLibXMLParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332727330.062471
+e332727330.226061
+r1
+xCompileC
+xbuild/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterMessagesLibXMLParser.o
+x/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesLibXMLParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesLibXMLParser.m332727330#332727330#0(0"0(0#0#96"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesLibXMLParser.m8647043520#1680"    cd /Users/Max/Desktop/Sparrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-generated-files.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-own-target-headers.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-all-target-headers.hmap -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-project-headers.hmap -F/Users/Max/Desktop/Sparrow/build/Debug-iphoneos -I/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/include -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources/armv7 -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources -include /var/folders/1R/1RPYx-rTES8ja4-orqLoIE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparrow_Prefix-fvjsxlxpvrnygdcbbpnnwwmaktlv/Sparrow_Prefix.pch -c /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesLibXMLParser.m -o /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterMessagesLibXMLParser.o0#
+
+CCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterMessagesParser.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332727330.157252
+e332727330.240855
+r1
+xCompileC
+xbuild/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterMessagesParser.o
+x/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesParser.m: In function '-[MGTwitterMessagesParser parser:didEndElement:namespaceURI:qualifiedName:]':
+o/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesParser.m:45: warning: 'MGTwitterStatusesParser' may not respond to '-parser:didEndElement:namespaceURI:qualifiedName:'
+o/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesParser.m:45: warning: (Messages without a matching method signature
+o/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesParser.m:45: warning: will be assumed to return 'id' and accept
+o/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesParser.m:45: warning: '...' as arguments.)
+lSLF07#2@98"Compile /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesParser.m332727330#332727330#0(805"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesParser.m: In function '-[MGTwitterMessagesParser parser:didEndElement:namespaceURI:qualifiedName:]':/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesParser.m:45: warning: 'MGTwitterStatusesParser' may not respond to '-parser:didEndElement:namespaceURI:qualifiedName:'/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesParser.m:45: warning: (Messages without a matching method signature/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesParser.m:45: warning: will be assumed to return 'id' and accept/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesParser.m:45: warning: '...' as arguments.)2(22@96"'MGTwitterStatusesParser' may not respond to '-parser:didEndElement:namespaceURI:qualifiedName:'332727330#183#201#0(6@90"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesParser.m326508666#45#0#45#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)332727330#384#150#0(6@90"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesParser.m326508666#45#0#45#0#0"0(0#0#90"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesParser.m8645239488#1668"    cd /Users/Max/Desktop/Sparrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-generated-files.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-own-target-headers.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-all-target-headers.hmap -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-project-headers.hmap -F/Users/Max/Desktop/Sparrow/build/Debug-iphoneos -I/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/include -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources/armv7 -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources -include /var/folders/1R/1RPYx-rTES8ja4-orqLoIE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparrow_Prefix-fvjsxlxpvrnygdcbbpnnwwmaktlv/Sparrow_Prefix.pch -c /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMessagesParser.m -o /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterMessagesParser.o0#
+
+CCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterMiscLibXMLParser.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscLibXMLParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332727330.226159
+e332727330.378129
+r1
+xCompileC
+xbuild/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterMiscLibXMLParser.o
+x/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscLibXMLParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscLibXMLParser.m332727330#332727330#0(0"0(0#0#92"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscLibXMLParser.m8640476896#1672"    cd /Users/Max/Desktop/Sparrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-generated-files.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-own-target-headers.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-all-target-headers.hmap -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-project-headers.hmap -F/Users/Max/Desktop/Sparrow/build/Debug-iphoneos -I/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/include -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources/armv7 -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources -include /var/folders/1R/1RPYx-rTES8ja4-orqLoIE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparrow_Prefix-fvjsxlxpvrnygdcbbpnnwwmaktlv/Sparrow_Prefix.pch -c /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscLibXMLParser.m -o /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterMiscLibXMLParser.o0#
+
+CCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterMiscParser.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332727330.241103
+e332727330.340216
+r1
+xCompileC
+xbuild/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterMiscParser.o
+x/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscParser.m: In function '-[MGTwitterMiscParser parser:didEndElement:namespaceURI:qualifiedName:]':
+o/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscParser.m:39: warning: 'MGTwitterStatusesParser' may not respond to '-parser:didEndElement:namespaceURI:qualifiedName:'
+o/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscParser.m:39: warning: (Messages without a matching method signature
+o/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscParser.m:39: warning: will be assumed to return 'id' and accept
+o/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscParser.m:39: warning: '...' as arguments.)
+lSLF07#2@94"Compile /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscParser.m332727330#332727330#0(781"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscParser.m: In function '-[MGTwitterMiscParser parser:didEndElement:namespaceURI:qualifiedName:]':/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscParser.m:39: warning: 'MGTwitterStatusesParser' may not respond to '-parser:didEndElement:namespaceURI:qualifiedName:'/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscParser.m:39: warning: (Messages without a matching method signature/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscParser.m:39: warning: will be assumed to return 'id' and accept/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscParser.m:39: warning: '...' as arguments.)2(22@96"'MGTwitterStatusesParser' may not respond to '-parser:didEndElement:namespaceURI:qualifiedName:'332727330#175#197#0(6@86"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscParser.m326508666#39#0#39#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)332727330#372#146#0(6@86"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscParser.m326508666#39#0#39#0#0"0(0#0#86"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscParser.m8632170560#1660"    cd /Users/Max/Desktop/Sparrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-generated-files.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-own-target-headers.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-all-target-headers.hmap -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-project-headers.hmap -F/Users/Max/Desktop/Sparrow/build/Debug-iphoneos -I/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/include -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources/armv7 -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources -include /var/folders/1R/1RPYx-rTES8ja4-orqLoIE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparrow_Prefix-fvjsxlxpvrnygdcbbpnnwwmaktlv/Sparrow_Prefix.pch -c /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterMiscParser.m -o /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterMiscParser.o0#
+
+CCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterStatusesLibXMLParser.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesLibXMLParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332727330.340312
+e332727330.513217
+r1
+xCompileC
+xbuild/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterStatusesLibXMLParser.o
+x/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesLibXMLParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesLibXMLParser.m332727330#332727330#0(0"0(0#0#96"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesLibXMLParser.m8643768736#1680"    cd /Users/Max/Desktop/Sparrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-generated-files.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-own-target-headers.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-all-target-headers.hmap -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-project-headers.hmap -F/Users/Max/Desktop/Sparrow/build/Debug-iphoneos -I/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/include -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources/armv7 -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources -include /var/folders/1R/1RPYx-rTES8ja4-orqLoIE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparrow_Prefix-fvjsxlxpvrnygdcbbpnnwwmaktlv/Sparrow_Prefix.pch -c /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesLibXMLParser.m -o /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterStatusesLibXMLParser.o0#
+
+CCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterStatusesParser.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332727330.378562
+e332727330.461505
+r1
+xCompileC
+xbuild/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterStatusesParser.o
+x/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesParser.m: In function '-[MGTwitterStatusesParser parser:didEndElement:namespaceURI:qualifiedName:]':
+o/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesParser.m:55: warning: 'MGTwitterXMLParser' may not respond to '-parser:didEndElement:namespaceURI:qualifiedName:'
+o/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesParser.m:55: warning: (Messages without a matching method signature
+o/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesParser.m:55: warning: will be assumed to return 'id' and accept
+o/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesParser.m:55: warning: '...' as arguments.)
+lSLF07#2@98"Compile /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesParser.m332727330#332727330#0(800"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesParser.m: In function '-[MGTwitterStatusesParser parser:didEndElement:namespaceURI:qualifiedName:]':/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesParser.m:55: warning: 'MGTwitterXMLParser' may not respond to '-parser:didEndElement:namespaceURI:qualifiedName:'/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesParser.m:55: warning: (Messages without a matching method signature/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesParser.m:55: warning: will be assumed to return 'id' and accept/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesParser.m:55: warning: '...' as arguments.)2(22@91"'MGTwitterXMLParser' may not respond to '-parser:didEndElement:namespaceURI:qualifiedName:'332727330#183#196#0(6@90"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesParser.m326508666#55#0#55#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)332727330#379#150#0(6@90"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesParser.m326508666#55#0#55#0#0"0(0#0#90"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesParser.m8639024960#1668"    cd /Users/Max/Desktop/Sparrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-generated-files.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-own-target-headers.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-all-target-headers.hmap -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-project-headers.hmap -F/Users/Max/Desktop/Sparrow/build/Debug-iphoneos -I/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/include -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources/armv7 -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources -include /var/folders/1R/1RPYx-rTES8ja4-orqLoIE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparrow_Prefix-fvjsxlxpvrnygdcbbpnnwwmaktlv/Sparrow_Prefix.pch -c /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterStatusesParser.m -o /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterStatusesParser.o0#
+
+CCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterUsersLibXMLParser.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersLibXMLParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332727330.461597
+e332727330.643209
+r1
+xCompileC
+xbuild/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterUsersLibXMLParser.o
+x/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersLibXMLParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersLibXMLParser.m332727330#332727330#0(0"0(0#0#93"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersLibXMLParser.m8631823456#1674"    cd /Users/Max/Desktop/Sparrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-generated-files.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-own-target-headers.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-all-target-headers.hmap -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-project-headers.hmap -F/Users/Max/Desktop/Sparrow/build/Debug-iphoneos -I/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/include -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources/armv7 -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources -include /var/folders/1R/1RPYx-rTES8ja4-orqLoIE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparrow_Prefix-fvjsxlxpvrnygdcbbpnnwwmaktlv/Sparrow_Prefix.pch -c /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersLibXMLParser.m -o /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterUsersLibXMLParser.o0#
+
+CCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterUsersParser.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332727330.513305
+e332727330.609107
+r1
+xCompileC
+xbuild/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterUsersParser.o
+x/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersParser.m: In function '-[MGTwitterUsersParser parser:didEndElement:namespaceURI:qualifiedName:]':
+o/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersParser.m:45: warning: 'MGTwitterStatusesParser' may not respond to '-parser:didEndElement:namespaceURI:qualifiedName:'
+o/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersParser.m:45: warning: (Messages without a matching method signature
+o/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersParser.m:45: warning: will be assumed to return 'id' and accept
+o/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersParser.m:45: warning: '...' as arguments.)
+lSLF07#2@95"Compile /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersParser.m332727330#332727330#0(787"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersParser.m: In function '-[MGTwitterUsersParser parser:didEndElement:namespaceURI:qualifiedName:]':/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersParser.m:45: warning: 'MGTwitterStatusesParser' may not respond to '-parser:didEndElement:namespaceURI:qualifiedName:'/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersParser.m:45: warning: (Messages without a matching method signature/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersParser.m:45: warning: will be assumed to return 'id' and accept/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersParser.m:45: warning: '...' as arguments.)2(22@96"'MGTwitterStatusesParser' may not respond to '-parser:didEndElement:namespaceURI:qualifiedName:'332727330#177#198#0(6@87"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersParser.m326508666#45#0#45#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)332727330#375#147#0(6@87"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersParser.m326508666#45#0#45#0#0"0(0#0#87"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersParser.m8637071680#1662"    cd /Users/Max/Desktop/Sparrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-generated-files.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-own-target-headers.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-all-target-headers.hmap -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-project-headers.hmap -F/Users/Max/Desktop/Sparrow/build/Debug-iphoneos -I/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/include -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources/armv7 -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources -include /var/folders/1R/1RPYx-rTES8ja4-orqLoIE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparrow_Prefix-fvjsxlxpvrnygdcbbpnnwwmaktlv/Sparrow_Prefix.pch -c /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterUsersParser.m -o /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterUsersParser.o0#
+
+CCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterXMLParser.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332727330.609189
+e332727330.733554
+r1
+xCompileC
+xbuild/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterXMLParser.o
+x/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m: In function '-[MGTwitterXMLParser initWithXML:delegate:connectionIdentifier:requestType:responseType:]':
+o/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m:45: warning: class 'MGTwitterXMLParser' does not implement the 'NSXMLParserDelegate' protocol
+lSLF07#2@93"Compile /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m332727330#332727330#0(372"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m: In function '-[MGTwitterXMLParser initWithXML:delegate:connectionIdentifier:requestType:responseType:]':/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m:45: warning: class 'MGTwitterXMLParser' does not implement the 'NSXMLParserDelegate' protocol1(22@80"Class 'MGTwitterXMLParser' does not implement the 'NSXMLParserDelegate' protocol332727330#192#180#0(6@85"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m326508666#45#0#45#0#45"class '*' does not implement the '*' protocol0(0#0#85"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m8641403296#1658"    cd /Users/Max/Desktop/Sparrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-generated-files.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-own-target-headers.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-all-target-headers.hmap -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-project-headers.hmap -F/Users/Max/Desktop/Sparrow/build/Debug-iphoneos -I/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/include -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources/armv7 -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources -include /var/folders/1R/1RPYx-rTES8ja4-orqLoIE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparrow_Prefix-fvjsxlxpvrnygdcbbpnnwwmaktlv/Sparrow_Prefix.pch -c /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/MGTwitterXMLParser.m -o /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/MGTwitterXMLParser.o0#
+
+CCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/NSData+Base64.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/NSData+Base64.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332727330.643299
+e332727330.736010
+r1
+xCompileC
+xbuild/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/NSData+Base64.o
+x/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/NSData+Base64.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/NSData+Base64.m332727330#332727330#0(0"0(0#0#80"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/NSData+Base64.m8644179424#1648"    cd /Users/Max/Desktop/Sparrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-generated-files.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-own-target-headers.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-all-target-headers.hmap -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-project-headers.hmap -F/Users/Max/Desktop/Sparrow/build/Debug-iphoneos -I/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/include -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources/armv7 -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources -include /var/folders/1R/1RPYx-rTES8ja4-orqLoIE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparrow_Prefix-fvjsxlxpvrnygdcbbpnnwwmaktlv/Sparrow_Prefix.pch -c /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/NSData+Base64.m -o /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/NSData+Base64.o0#
+
+CCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/NSString+UUID.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/NSString+UUID.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332727330.736149
+e332727330.801889
+r1
+xCompileC
+xbuild/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/NSString+UUID.o
+x/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/NSString+UUID.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/NSString+UUID.m332727330#332727330#0(0"0(0#0#80"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/NSString+UUID.m8638497344#1648"    cd /Users/Max/Desktop/Sparrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-generated-files.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-own-target-headers.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-all-target-headers.hmap -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-project-headers.hmap -F/Users/Max/Desktop/Sparrow/build/Debug-iphoneos -I/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/include -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources/armv7 -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources -include /var/folders/1R/1RPYx-rTES8ja4-orqLoIE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparrow_Prefix-fvjsxlxpvrnygdcbbpnnwwmaktlv/Sparrow_Prefix.pch -c /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/MGTwitterEngine/NSString+UUID.m -o /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/NSString+UUID.o0#
+
+CCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/RootViewController.o /Users/Max/Desktop/Sparrow/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332727328.675923
+e332727329.207915
+r1
+xCompileC
+xbuild/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/RootViewController.o
+x/Users/Max/Desktop/Sparrow/Classes/RootViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/Max/Desktop/Sparrow/Classes/RootViewController.m332727328#332727329#0(0"0(0#0#55"/Users/Max/Desktop/Sparrow/Classes/RootViewController.m8639707648#1628"    cd /Users/Max/Desktop/Sparrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-generated-files.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-own-target-headers.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-all-target-headers.hmap -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-project-headers.hmap -F/Users/Max/Desktop/Sparrow/build/Debug-iphoneos -I/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/include -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources/armv7 -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources -include /var/folders/1R/1RPYx-rTES8ja4-orqLoIE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparrow_Prefix-fvjsxlxpvrnygdcbbpnnwwmaktlv/Sparrow_Prefix.pch -c /Users/Max/Desktop/Sparrow/Classes/RootViewController.m -o /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/RootViewController.o0#
+
+CCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/SA_OAuthTwitterController.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332727330.801979
+e332727330.990180
+r1
+xCompileC
+xbuild/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/SA_OAuthTwitterController.o
+x/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterController.m332727330#332727330#0(0"0(0#0#97"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterController.m8644419168#1677"    cd /Users/Max/Desktop/Sparrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-generated-files.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-own-target-headers.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-all-target-headers.hmap -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-project-headers.hmap -F/Users/Max/Desktop/Sparrow/build/Debug-iphoneos -I/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/include -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources/armv7 -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources -include /var/folders/1R/1RPYx-rTES8ja4-orqLoIE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparrow_Prefix-fvjsxlxpvrnygdcbbpnnwwmaktlv/Sparrow_Prefix.pch -c /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterController.m -o /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/SA_OAuthTwitterController.o0#
+
+CCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/SA_OAuthTwitterEngine.o /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterEngine.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332727330.990270
+e332727331.104298
+r1
+xCompileC
+xbuild/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/SA_OAuthTwitterEngine.o
+x/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterEngine.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterEngine.m332727330#332727331#0(0"0(0#0#93"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterEngine.m8636202336#1669"    cd /Users/Max/Desktop/Sparrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-generated-files.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-own-target-headers.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-all-target-headers.hmap -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-project-headers.hmap -F/Users/Max/Desktop/Sparrow/build/Debug-iphoneos -I/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/include -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources/armv7 -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources -include /var/folders/1R/1RPYx-rTES8ja4-orqLoIE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparrow_Prefix-fvjsxlxpvrnygdcbbpnnwwmaktlv/Sparrow_Prefix.pch -c /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/SAOAuthTwitterEngine/SA_OAuthTwitterEngine.m -o /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/SA_OAuthTwitterEngine.o0#
+
+CCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/SPCategoryTableView.o /Users/Max/Desktop/Sparrow/Classes/SPCategoryTableView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332727329.304055
+e332727329.424822
+r1
+xCompileC
+xbuild/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/SPCategoryTableView.o
+x/Users/Max/Desktop/Sparrow/Classes/SPCategoryTableView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/Max/Desktop/Sparrow/Classes/SPCategoryTableView.m332727329#332727329#0(0"0(0#0#56"/Users/Max/Desktop/Sparrow/Classes/SPCategoryTableView.m8641370912#1630"    cd /Users/Max/Desktop/Sparrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-generated-files.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-own-target-headers.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-all-target-headers.hmap -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-project-headers.hmap -F/Users/Max/Desktop/Sparrow/build/Debug-iphoneos -I/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/include -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources/armv7 -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources -include /var/folders/1R/1RPYx-rTES8ja4-orqLoIE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparrow_Prefix-fvjsxlxpvrnygdcbbpnnwwmaktlv/Sparrow_Prefix.pch -c /Users/Max/Desktop/Sparrow/Classes/SPCategoryTableView.m -o /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/SPCategoryTableView.o0#
+
+CCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/SPCellInfoPopOverController.o /Users/Max/Desktop/Sparrow/Classes/SPCellInfoPopOverController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332727329.424915
+e332727329.510007
+r1
+xCompileC
+xbuild/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/SPCellInfoPopOverController.o
+x/Users/Max/Desktop/Sparrow/Classes/SPCellInfoPopOverController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/Max/Desktop/Sparrow/Classes/SPCellInfoPopOverController.m332727329#332727329#0(0"0(0#0#64"/Users/Max/Desktop/Sparrow/Classes/SPCellInfoPopOverController.m8637617920#1646"    cd /Users/Max/Desktop/Sparrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-generated-files.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-own-target-headers.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-all-target-headers.hmap -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-project-headers.hmap -F/Users/Max/Desktop/Sparrow/build/Debug-iphoneos -I/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/include -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources/armv7 -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources -include /var/folders/1R/1RPYx-rTES8ja4-orqLoIE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparrow_Prefix-fvjsxlxpvrnygdcbbpnnwwmaktlv/Sparrow_Prefix.pch -c /Users/Max/Desktop/Sparrow/Classes/SPCellInfoPopOverController.m -o /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/SPCellInfoPopOverController.o0#
+
+CCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/SparrowAppDelegate.o /Users/Max/Desktop/Sparrow/Classes/SparrowAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332727327.726638
+e332727329.303964
+r1
+xCompileC
+xbuild/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/SparrowAppDelegate.o
+x/Users/Max/Desktop/Sparrow/Classes/SparrowAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/Max/Desktop/Sparrow/Classes/SparrowAppDelegate.m332727327#332727329#0(0"0(0#0#55"/Users/Max/Desktop/Sparrow/Classes/SparrowAppDelegate.m8644666560#1628"    cd /Users/Max/Desktop/Sparrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-generated-files.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-own-target-headers.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-all-target-headers.hmap -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-project-headers.hmap -F/Users/Max/Desktop/Sparrow/build/Debug-iphoneos -I/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/include -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources/armv7 -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources -include /var/folders/1R/1RPYx-rTES8ja4-orqLoIE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparrow_Prefix-fvjsxlxpvrnygdcbbpnnwwmaktlv/Sparrow_Prefix.pch -c /Users/Max/Desktop/Sparrow/Classes/SparrowAppDelegate.m -o /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/SparrowAppDelegate.o0#
+
+CCompileC build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/main.o /Users/Max/Desktop/Sparrow/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332727327.386028
+e332727328.675840
+r1
+xCompileC
+xbuild/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/main.o
+x/Users/Max/Desktop/Sparrow/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /Users/Max/Desktop/Sparrow/main.m332727327#332727328#0(0"0(0#0#33"/Users/Max/Desktop/Sparrow/main.m8649180256#1592"    cd /Users/Max/Desktop/Sparrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-generated-files.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-own-target-headers.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-all-target-headers.hmap -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-project-headers.hmap -F/Users/Max/Desktop/Sparrow/build/Debug-iphoneos -I/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/include -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources/armv7 -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources -include /var/folders/1R/1RPYx-rTES8ja4-orqLoIE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparrow_Prefix-fvjsxlxpvrnygdcbbpnnwwmaktlv/Sparrow_Prefix.pch -c /Users/Max/Desktop/Sparrow/main.m -o /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/Max/Desktop/Sparrow/DetailView.xib
+s332727312.516024
+e332727316.332694
+r1
+xCompileXIB
+x/Users/Max/Desktop/Sparrow/DetailView.xib
+lSLF07#2@25"CompileXIB DetailView.xib332727312#332727316#0(0"0(0#0#41"/Users/Max/Desktop/Sparrow/DetailView.xib8638414784#506"    cd /Users/Max/Desktop/Sparrow    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/DetailView.nib /Users/Max/Desktop/Sparrow/DetailView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB /Users/Max/Desktop/Sparrow/MainWindow.xib
+s332727312.498514
+e332727316.589445
+r1
+xCompileXIB
+x/Users/Max/Desktop/Sparrow/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib332727312#332727316#0(0"0(0#0#41"/Users/Max/Desktop/Sparrow/MainWindow.xib8638599808#506"    cd /Users/Max/Desktop/Sparrow    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/MainWindow.nib /Users/Max/Desktop/Sparrow/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCopyPNGFile /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/shadow.png shadow.png
+s332727316.333307
+e332727318.995024
+r1
+xCopyPNGFile
+x/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/shadow.png
+xshadow.png
+lSLF07#2@66"CopyPNGFile build/Debug-iphoneos/Sparrow.app/shadow.png shadow.png332727316#332727318#0(0"0(0#0#37"/Users/Max/Desktop/Sparrow/shadow.png8640942432#424"    cd /Users/Max/Desktop/Sparrow    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Max/Desktop/Sparrow/shadow.png /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/shadow.png0#
+
+CCopyPNGFile /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/twitter_load.png Classes/Twitter+OAuth/SAOAuthTwitterEngine/twitter_load.png
+s332727316.591555
+e332727319.408192
+r1
+xCopyPNGFile
+x/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/twitter_load.png
+xClasses/Twitter+OAuth/SAOAuthTwitterEngine/twitter_load.png
+lSLF07#2@121"CopyPNGFile build/Debug-iphoneos/Sparrow.app/twitter_load.png Classes/Twitter+OAuth/SAOAuthTwitterEngine/twitter_load.png332727316#332727319#0(0"0(0#0#86"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/SAOAuthTwitterEngine/twitter_load.png8640083616#479"    cd /Users/Max/Desktop/Sparrow    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/SAOAuthTwitterEngine/twitter_load.png /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/twitter_load.png0#
+
+CCpResource build/Debug-iphoneos/Sparrow.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+s332727312.164470
+e332727312.477889
+r1
+xCpResource
+xbuild/Debug-iphoneos/Sparrow.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist332727312#332727312#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist8632547456#470"    cd /Users/Max/Desktop/Sparrow    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app0#
+
+CCpResource build/Debug-iphoneos/Sparrow.app/jQueryInject.txt "Classes/Twitter+OAuth/Libraries & Headers/jQueryInject.txt"
+s332727316.589530
+e332727316.926584
+r1
+xCpResource
+xbuild/Debug-iphoneos/Sparrow.app/jQueryInject.txt
+xClasses/Twitter+OAuth/Libraries & Headers/jQueryInject.txt
+lSLF07#2@63"Copy Classes/Twitter+OAuth/Libraries & Headers/jQueryInject.txt332727316#332727316#0(0"0(0#0#85"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/Libraries & Headers/jQueryInject.txt8640521344#468"    cd /Users/Max/Desktop/Sparrow    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/Libraries & Headers/jQueryInject.txt" /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app0#
+
+CCpResource build/Debug-iphoneos/Sparrow.app/jQueryInjectLandscape.txt "Classes/Twitter+OAuth/Libraries & Headers/jQueryInjectLandscape.txt"
+s332727316.590616
+e332727316.670409
+r1
+xCpResource
+xbuild/Debug-iphoneos/Sparrow.app/jQueryInjectLandscape.txt
+xClasses/Twitter+OAuth/Libraries & Headers/jQueryInjectLandscape.txt
+lSLF07#2@72"Copy Classes/Twitter+OAuth/Libraries & Headers/jQueryInjectLandscape.txt332727316#332727316#0(0"0(0#0#94"/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/Libraries & Headers/jQueryInjectLandscape.txt8640326272#477"    cd /Users/Max/Desktop/Sparrow    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/Libraries & Headers/jQueryInjectLandscape.txt" /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app0#
+
+CDataModelVersionCompile /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/Sparrow.momd /Users/Max/Desktop/Sparrow/Sparrow.xcdatamodeld
+s332727327.365277
+e332727327.726470
+r1
+xDataModelVersionCompile
+x/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/Sparrow.momd
+x/Users/Max/Desktop/Sparrow/Sparrow.xcdatamodeld
+lSLF07#2@90"DataModelVersionCompile build/Debug-iphoneos/Sparrow.app/Sparrow.momd Sparrow.xcdatamodeld332727327#332727327#0(0"0(0#0#47"/Users/Max/Desktop/Sparrow/Sparrow.xcdatamodeld8647247712#307"    cd /Users/Max/Desktop/Sparrow    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc /Users/Max/Desktop/Sparrow/Sparrow.xcdatamodeld /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/Sparrow.momd0#
+
+CGenerateDSYMFile /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app.dSYM /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/Sparrow
+s332727456.252919
+e332727456.403924
+r1
+xGenerateDSYMFile
+x/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app.dSYM
+x/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/Sparrow
+lSLF07#2@95"GenerateDSYMFile build/Debug-iphoneos/Sparrow.app.dSYM build/Debug-iphoneos/Sparrow.app/Sparrow332727456#332727456#0(0"0(0#0#67"/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/Sparrow8602141024#326"    cd /Users/Max/Desktop/Sparrow    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/Sparrow -o /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app.dSYM0#
+
+CLd /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/Sparrow normal armv7
+s332727456.148495
+e332727456.252828
+r1
+xLd
+x/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/Sparrow
+xnormal
+xarmv7
+lSLF07#2@72"Link /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/Sparrow332727456#332727456#0(0"0(0#0#0"8647529568#960"    cd /Users/Max/Desktop/Sparrow    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/Max/Desktop/Sparrow/build/Debug-iphoneos -L/Users/Max/Desktop/Sparrow "-L/Users/Max/Desktop/Sparrow/Classes/Twitter+OAuth/Libraries & Headers" -F/Users/Max/Desktop/Sparrow/build/Debug-iphoneos -filelist /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Objects-normal/armv7/Sparrow.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -lxml2.2 -lOAuth -framework Security -framework SystemConfiguration -lOAuth -o /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/Sparrow0#
+
+CProcessInfoPlistFile /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/Info.plist Sparrow-Info.plist
+s332727312.210899
+e332727312.488260
+r1
+xProcessInfoPlistFile
+x/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/Info.plist
+xSparrow-Info.plist
+lSLF07#2@26"Process Sparrow-Info.plist332727312#332727312#0(0"0(0#0#45"/Users/Max/Desktop/Sparrow/Sparrow-Info.plist8644072128#514"    cd /Users/Max/Desktop/Sparrow    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Sparrow-Info.plist -genpkginfo /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/ResourceRules.plist -o /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/Info.plist0#
+
+CProcessPCH /var/folders/1R/1RPYx-rTES8ja4-orqLoIE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparrow_Prefix-fvjsxlxpvrnygdcbbpnnwwmaktlv/Sparrow_Prefix.pch.gch Sparrow_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332727319.408521
+e332727327.365111
+r1
+xProcessPCH
+x/var/folders/1R/1RPYx-rTES8ja4-orqLoIE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparrow_Prefix-fvjsxlxpvrnygdcbbpnnwwmaktlv/Sparrow_Prefix.pch.gch
+xSparrow_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile Sparrow_Prefix.pch332727319#332727327#0(0"0(0#0#45"/Users/Max/Desktop/Sparrow/Sparrow_Prefix.pch8643912384#1502"    cd /Users/Max/Desktop/Sparrow    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-generated-files.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-own-target-headers.hmap -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-all-target-headers.hmap -iquote /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow-project-headers.hmap -F/Users/Max/Desktop/Sparrow/build/Debug-iphoneos -I/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/include -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources/armv7 -I/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/DerivedSources -c /Users/Max/Desktop/Sparrow/Sparrow_Prefix.pch -o /var/folders/1R/1RPYx-rTES8ja4-orqLoIE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sparrow_Prefix-fvjsxlxpvrnygdcbbpnnwwmaktlv/Sparrow_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/Max/Library/MobileDevice/Provisioning Profiles/C275F5A4-A9B6-4592-AB97-54E506570B3D.mobileprovision" /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/embedded.mobileprovision
+s332727332.454267
+e332727332.612499
+r1
+xProcessProductPackaging
+x/Users/Max/Library/MobileDevice/Provisioning Profiles/C275F5A4-A9B6-4592-AB97-54E506570B3D.mobileprovision
+x/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/embedded.mobileprovision
+lSLF07#2@190"ProcessProductPackaging "/Users/Max/Library/MobileDevice/Provisioning Profiles/C275F5A4-A9B6-4592-AB97-54E506570B3D.mobileprovision" build/Debug-iphoneos/Sparrow.app/embedded.mobileprovision332727332#332727332#0(0"0(0#0#84"/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/embedded.mobileprovision8643597664#397"    cd /Users/Max/Desktop/Sparrow    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/Max/Library/MobileDevice/Provisioning Profiles/C275F5A4-A9B6-4592-AB97-54E506570B3D.mobileprovision" -o /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow.xcent
+s332727332.615602
+e332727332.650366
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow.xcent
+lSLF07#2@175"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow.xcent332727332#332727332#0(0"0(0#0#89"/Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow.xcent8648830048#408"    cd /Users/Max/Desktop/Sparrow    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/Max/Desktop/Sparrow/build/Sparrow.build/Debug-iphoneos/Sparrow.build/Sparrow.xcent0#
+
+CTouch /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app
+s332727456.404080
+e332727456.406632
+r1
+xTouch
+x/Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app
+lSLF07#2@65"Touch /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app332727456#332727456#0(0"0(0#0#0"8649310080#240"    cd /Users/Max/Desktop/Sparrow    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Max/Desktop/Sparrow/build/Debug-iphoneos/Sparrow.app0#
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>DetailView.nib</key>
+		<data>
+		8vGBxhjtqRRvpcHRFDXxe16n7aw=
+		</data>
+		<key>MainWindow.nib</key>
+		<data>
+		h7I6S9sc8wC11RAg2MXL0MT6MFM=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Sparrow.momd/Sparrow.mom</key>
+		<data>
+		57JrqtCXu7O6z+HZBN6EoRaIqwc=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		Dq86O0QC42woA1gtjVksOu0sSS0=
+		</data>
+		<key>jQueryInject.txt</key>
+		<data>
+		hxh4wmKzS8yMViUMg3ROUX4e+hc=
+		</data>
+		<key>jQueryInjectLandscape.txt</key>
+		<data>
+		5e9ciCfcuUsw+8TrupSR3Ae0TtE=
+		</data>
+		<key>shadow.png</key>
+		<data>
+		7vW+OFIcBVTg9Ntq2qGR9dqPHD8=
+		</data>
+		<key>twitter_load.png</key>
+		<data>
+		AKiI05ikI41r8idbjryeJgpUExA=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>.*</key>
+		<true/>
+		<key>Info.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>ResourceRules.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
+		</dict>
+	</dict>
+</dict>
+</plist>
