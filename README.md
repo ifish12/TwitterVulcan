@@ -10,3 +10,7 @@ A lot of this code was open-sourced code that I found a long time ago. I honestl
 ---
 
 If there are any problems feel free to email me(email is on the contact page of my website) if you have any issues with this and I'll gladly take it down. 
+
+---
+
+I realize the name "Sparrow" is already the name of an OS X application. I didn't plan to release it with that name, or release it at all. Again, if you have issues, I'll gladly remove it!
